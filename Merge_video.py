@@ -1,7 +1,7 @@
 import os
 import subprocess
 import tempfile
-
+#   
 def merge_ts_files_from_result_txt(result_txt_path, base_directory, ts_files_location, output_file, ffmpeg_path='D:/FFMEPG/bin/ffmpeg.exe'):
     # 根据result_txt_path中的文件顺序读取.ts文件路径，并附加ts_files_location的基础目录路径
     with open(result_txt_path, 'r') as result_file:
